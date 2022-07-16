@@ -41,7 +41,7 @@ public class MathUtilsTest {
 	}
 
 	@Test
-	void testComputercircleRadius() {
+	void testComputeCircleRadius() {
 		MathUtils mathUtils = new MathUtils();
 		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return the correct circle area.");
 	}
